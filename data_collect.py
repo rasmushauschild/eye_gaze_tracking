@@ -44,10 +44,10 @@ def CaptureEye(captures=1, frame_scale=0.15, coordinates=(0, 0), folder_name="ey
             
 
 
-for i in [0, 256, 512, 768, 1024, 1280, 1536, 1792, 2048, 2304, 2560]:
-    for j in [0, 256, 512, 768, 1024, 1280, 1400]:
+for i in [1, 256, 512, 768, 1024, 1280, 1536, 1792, 2048, 2304, 2560]:
+    for j in [1, 256, 512, 768, 1024, 1280, 1400]:
         print(i,j)
         pyautogui.moveTo(i, j)
         input("Press Enter to continue...")
         pyautogui.moveTo(i, j)
-        CaptureEye(captures=100, frame_scale=0.15, coordinates=(i,j), folder_name="new_eyes")
+        CaptureEye(captures=100, frame_scale=0.15, coordinates=(i,j), folder_name="eye_images")

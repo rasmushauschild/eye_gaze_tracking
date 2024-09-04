@@ -1,3 +1,4 @@
+# Eye-Tracking with Deep Learning and Real-Time Mouse Control
 **Eye-Tracking with Deep Learning and Real-Time Mouse Control**
 This project demonstrates real-time eye-tracking using a custom-trained convolutional neural network (CNN) to predict screen coordinates based on eye images captured from a webcam. The predicted gaze coordinates are used to control the mouse cursor on the screen.
 

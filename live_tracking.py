@@ -6,7 +6,7 @@ import mediapipe as mp
 from PIL import Image
 
 # Define the EyeGazeCNN model (ensure this matches the structure of your trained model)
-class EyeGazeCNN(torch.nn.Module):
+class EyeGazeCNN(torch.nn.Module): 
     def __init__(self):
         super(EyeGazeCNN, self).__init__()
         self.conv1 = torch.nn.Conv2d(1, 32, kernel_size=5, stride=1, padding=2)
